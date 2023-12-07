@@ -1,0 +1,9 @@
+
+train: /kaggle/working/train/
+val: /kaggle/working/val/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Aircraft']
