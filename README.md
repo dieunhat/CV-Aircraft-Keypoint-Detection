@@ -11,13 +11,15 @@ Computer Vision project by group 6:
 
 In this project, we only used the real images (~3 GB) for aircraft keypoint detection.
 
-### Data loading 
+## Data loading, preprocessing, and exploration
+### Data loading
 The traning and test data are loaded from [RarePlanes - Registry of Open Data on AWS](https://registry.opendata.aws/rareplanes/) using AWS CLI. The script can be found in **DataLoader.ipynb** notebook.
 
-## Phrase 1
-### Preprocessing & Exploration
-- Annotations conversion
+## Preprocessing & Exploration
+- Annotations conversion: the orgininal annotation coordinates 
+
+## Phrase 1: ROI Extractor
+
 ### Localization with YOLOv5 model
 
-## Phrase 2
-### Keypoints matching with SIFT
+## Phrase 2: Keypoints dectection with SIFT
